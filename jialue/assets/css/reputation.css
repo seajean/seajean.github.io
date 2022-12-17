@@ -1,0 +1,65 @@
+#reputation div {
+    box-sizing: border-box;
+}
+
+#reputation .logo {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reputation .logo1 {
+    width: 20%;
+}
+
+#reputation .logo2 {
+    width: 35%;
+}
+
+#reputation .logo3 {
+    width: 20%;
+}
+
+#reputation .logo4 {
+    width: 35%;
+}
+
+#reputation .logo5 {
+    width: 15%;
+}
+
+#reputation .logo6 {
+    width: 25%;
+}
+
+#reputation .logo7 {
+    width: 18%;
+}
+
+#reputation .logo8 {
+    width: 32%;
+}
+
+#reputation .logo9 {
+    width: 30%;
+}
+
+
+#reputation .name {
+    width: 20%
+}
+
+
+@media(max-width: 768px) {
+    #reputation .logo {
+        width: 60%;
+    }
+}
+
+@media(max-width: 500px) {
+    #reputation .logo {
+        width: 100%;
+    }
+}
