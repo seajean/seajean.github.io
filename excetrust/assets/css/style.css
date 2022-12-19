@@ -13,13 +13,13 @@
     padding: 0 20px 0 20px;
 }
 
-.dark {
+/* .dark {
     padding: 15px;
     background: #35424a;
     margin-top: 10px;
     margin-bottom: 10px;
 
-}
+} */
 
 #showcase {
     min-height: 400px;
@@ -116,7 +116,7 @@ ul#services li {
     flex-direction: row;
     flex-basis: 25%;
     margin: 8px 20px 0 20px;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .index-nav-menu img {
@@ -145,8 +145,9 @@ ul#services li {
     line-height: 10px;
     padding-top: 3px;
 }
+
 .index-nav-menu-link .ename {
-    font-size: 12px; 
+    font-size: 12px;
     zoom: 0.7;
 }
 
@@ -186,4 +187,29 @@ ul#services li {
         width: 100%;
         margin-bottom: 5px;
     }
+}
+
+
+/**/
+.edu-flex-card {
+    width: 50%; 
+    box-sizing: border-box;
+}
+.pr14 {
+    padding-right: 8px; 
+}
+.pl14 {
+    padding-left: 8px; 
+}
+.edu-card-item {
+    flex: 1;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    line-height: 13px;
+    background-color: #f2f4ef;
+}
+
+.edu-card-item .title{
+ font-weight: bold;
+ font-size: 14px;
 }
