@@ -1,0 +1,215 @@
+/* Global */
+.container {
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+.button_1 {
+    height: 38px;
+    background: orangered;
+    border: none;
+    padding: 0 20px 0 20px;
+}
+
+/* .dark {
+    padding: 15px;
+    background: #35424a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+} */
+
+#showcase {
+    min-height: 400px;
+    text-align: left;
+    padding-top: 30px;
+    /* background: url('./images/showcase.jpg') no-repeat 0 -400px; */
+}
+
+#showcase h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#showcase .highlight {
+    color: #e68915;
+}
+
+#showcase img {
+    width: 100%;
+}
+
+
+
+
+/*newsletter */
+#newsletter {
+    padding: 25px;
+    background: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/*BOXES */
+#boxes {
+    margin-top: 60px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+}
+
+#boxes .box img {
+    width: 100px;
+}
+
+/*sidebar */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+
+/*Services */
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+}
+
+
+.index-nav-menu {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    margin: 8px 20px 0 20px;
+    justify-content: space-between;
+}
+
+.index-nav-menu img {
+    width: 22px;
+    height: 22px;
+}
+
+.index-nav-menu div {
+    width: 78px;
+
+}
+
+.index-nav-menu-link {
+    display: flex;
+}
+
+.index-nav-menu-link img {
+    vertical-align: middle;
+
+}
+
+.index-nav-menu-link div {
+    vertical-align: middle;
+    flex: 1;
+    margin-left: 4px;
+    line-height: 10px;
+    padding-top: 3px;
+}
+
+.index-nav-menu-link .ename {
+    font-size: 12px;
+    zoom: 0.7;
+}
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width: 768px) {
+
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #newsletter button,
+    .quote button {
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"],
+    .quote input,
+    .quote textarea {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+
+/**/
+.edu-flex-card {
+    width: 50%; 
+    box-sizing: border-box;
+}
+.pr14 {
+    padding-right: 8px; 
+}
+.pl14 {
+    padding-left: 8px; 
+}
+.edu-card-item {
+    flex: 1;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    line-height: 13px;
+    background-color: #f2f4ef;
+}
+
+.edu-card-item .title{
+ font-weight: bold;
+ font-size: 14px;
+}
